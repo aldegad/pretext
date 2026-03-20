@@ -35,6 +35,14 @@ function isWideCharacter(ch: string): boolean {
   return (
     (code >= 0x4E00 && code <= 0x9FFF) ||
     (code >= 0x3400 && code <= 0x4DBF) ||
+    (code >= 0xF900 && code <= 0xFAFF) ||
+    (code >= 0x2F800 && code <= 0x2FA1F) ||
+    (code >= 0x20000 && code <= 0x2A6DF) ||
+    (code >= 0x2A700 && code <= 0x2B73F) ||
+    (code >= 0x2B740 && code <= 0x2B81F) ||
+    (code >= 0x2B820 && code <= 0x2CEAF) ||
+    (code >= 0x2CEB0 && code <= 0x2EBEF) ||
+    (code >= 0x30000 && code <= 0x3134F) ||
     (code >= 0x3000 && code <= 0x303F) ||
     (code >= 0x3040 && code <= 0x309F) ||
     (code >= 0x30A0 && code <= 0x30FF) ||
