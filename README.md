@@ -13,7 +13,12 @@ npm install @chenglou/pretext
 ## Demos
 
 Clone the repo, run `bun install`, then `bun start`, and open the `/demos` in your browser (no trailing slash. Bun devserver bugs on those)
-Alternatively, see them live at [chenglou.me/pretext](https://chenglou.me/pretext/). Some more at [somnai-dreams.github.io/pretext-demos](https://somnai-dreams.github.io/pretext-demos/)
+Alternatively, see them live at [chenglou.me/pretext](https://chenglou.me/pretext/), [aldegad.github.io/pretext](https://aldegad.github.io/pretext/), or [somnai-dreams.github.io/pretext-demos](https://somnai-dreams.github.io/pretext-demos/).
+
+Current demo highlights:
+- `/demos/bubbles` - tight multiline bubble shrinkwrap
+- `/demos/dynamic-layout` - editorial obstacle-aware continuous flow
+- `/demos/paw-stamp` - live side-by-side Pretext vs naive DOM reflow with paw-driven ripple interaction
 
 ## API
 
