@@ -13,7 +13,14 @@ npm install @chenglou/pretext
 ## Demos
 
 Clone the repo, run `bun install`, then `bun start`, and open the `/demos` in your browser (no trailing slash. Bun devserver bugs on those)
-Alternatively, see them live at [chenglou.me/pretext](https://chenglou.me/pretext/), [aldegad.github.io/pretext](https://aldegad.github.io/pretext/), or [somnai-dreams.github.io/pretext-demos](https://somnai-dreams.github.io/pretext-demos/).
+
+This fork's live demos:
+- [aldegad.github.io/pretext](https://aldegad.github.io/pretext/)
+- [aldegad.github.io/pretext/paw-stamp](https://aldegad.github.io/pretext/paw-stamp/)
+
+Original/alternate demo sites for reference:
+- [chenglou.me/pretext](https://chenglou.me/pretext/)
+- [somnai-dreams.github.io/pretext-demos](https://somnai-dreams.github.io/pretext-demos/)
 
 Current demo highlights:
 - `/demos/bubbles` - tight multiline bubble shrinkwrap
